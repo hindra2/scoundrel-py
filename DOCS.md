@@ -12,9 +12,9 @@
 
 # Suits:
 
-Spades & Clubs - monster cards
-Hearts - healing
-Diamonds - Weapons
+Spades & Clubs - monster cards \
+Hearts - healing \
+Diamonds - Weapons \
 
 # Card Class
 
@@ -28,13 +28,13 @@ class Card:
 
 ## Suits:
 
-0 = spades
-1 = clubs
-2 = hearts
+0 = spades \
+1 = clubs \
+2 = hearts \
 
 ## Ranks:
 
-0 = null
+0 = null \
 1 - 13 = Ace - King
 
 # Deck Class
