@@ -14,7 +14,7 @@
 
 Spades & Clubs - monster cards \
 Hearts - healing \
-Diamonds - Weapons \
+Diamonds - Weapons
 
 # Card Class
 
@@ -30,7 +30,7 @@ class Card:
 
 0 = spades \
 1 = clubs \
-2 = hearts \
+2 = hearts
 
 ## Ranks:
 
