@@ -20,7 +20,7 @@ Diamonds - Weapons
 
 ```
 class Card:
-    init:
+    init(rank, suit):
         rank
         suit
 
@@ -30,22 +30,32 @@ class Card:
 
 0 = spades \
 1 = clubs \
-2 = hearts
+2 = hearts \
+3 = diamonds
 
 ## Ranks:
 
-0 = null \
 1 - 13 = Ace - King
 
 # Deck Class
 
+Deck class is built based on a queue
+
 ```
 class Deck:
     init:
-        cards = [Cards]
+        cards = [Card]
+        discard = [Card]
         build()
 
     build() - builds a random deck
     shuffle() - shuffles a built deck
     draw() - returns the card obejct in the queue
+    add_to_discard(card) - adds passed in card to the discard queue
+    cards_remaining() - returns the number of Cards in cards
 ```
+
+# Main Loop:
+
+initialize deck \
+draw 4 cards
